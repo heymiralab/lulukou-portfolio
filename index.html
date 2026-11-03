@@ -781,6 +781,15 @@ body.lux{--crimson:#B4502C}
 @media (max-width:600px){.eyebrow .eb{display:block}.eyebrow .eb-dot{display:none}}
 .about-copy p{hyphens:auto;-webkit-hyphens:auto}
 .svc-fine{margin-top:8px;font-size:13px;color:var(--mu);letter-spacing:.02em}
+@media (min-width:701px){.plates{display:grid !important;grid-template-columns:repeat(4,minmax(0,1fr)) !important;overflow:visible !important;margin-left:0 !important;margin-right:0 !important;padding-left:0 !important;padding-right:0 !important}.plates .plate{width:auto !important;flex:none !important}.plates-swipe,.plates + .swipe{display:none !important}}
+@media (min-width:701px) and (max-width:1240px){
+  .film.bowl-wrap{width:clamp(270px,31vw,360px) !important}
+  .hero{column-gap:clamp(36px,5vw,72px) !important}
+  .hero-koi.k1{width:34% !important;right:-14% !important;bottom:auto !important;top:58% !important}
+}
+@media (min-width:701px){.film .caption h2{white-space:nowrap;font-size:clamp(20px,1.9vw,26px) !important}.film .caption p{white-space:nowrap}}
+.svc dl{grid-template-columns:1fr !important;gap:2px !important}.svc dt{margin-top:8px}
+#oahu .plates,#oahu .strip-wrap{margin-top:clamp(28px,4vw,48px) !important}
 .to-night{height:clamp(120px,14vw,200px);background:linear-gradient(180deg,#F3EEE6 0%,#D9CBBA 35%,#5E4637 72%,#2A1E17 90%,#241A14 100%);position:relative;z-index:1}
 .contact{border-top:0 !important}
 .swipe{color:#B4502C !important}.swipe .dots b{background:rgba(46,33,25,.2) !important}.swipe .dots b.on{background:#B4502C !important}
